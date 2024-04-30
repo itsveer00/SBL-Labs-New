@@ -742,6 +742,7 @@ a:focus {
   height: 45px;
   color: #ffffff;
   outline: none;
+  font-size: 14px;
 }
 
 .info_section form textarea {
@@ -752,6 +753,8 @@ a:focus {
   height: 100px;
   color: gray;
   outline: none;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .info_section form input::-webkit-input-placeholder {
@@ -775,13 +778,15 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #00bbf0;
+  background-color: #170c80;
+  z-index: 9;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
   margin-top: 15px;
+  font-weight: 600;
 }
 
 .info_section form button:hover {

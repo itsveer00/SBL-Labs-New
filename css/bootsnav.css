@@ -8,7 +8,6 @@ nav.navbar.bootsnav {
   border-radius: 0px;
   border: none;
   z-index: 9;
-  /* background-color: red; */
 }
 
 /* Navbar Sticky
@@ -28,9 +27,9 @@ nav.navbar.bootsnav {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: black;
-  opacity: 0.5;
   height: 14%;
+   background-color: #170c65;
+  /* opacity: 0.5; */
 }
 
 @media (max-width: 991px) {
@@ -42,8 +41,8 @@ nav.navbar.bootsnav {
     border-radius: 0px;
     border: none;
     z-index: 9;
-    background-color: black;
-    opacity: 0.5;
+    /* background-color: green; */
+    /* opacity: 0.5; */
   }
 
   .wrap-sticky nav.navbar.bootsnav.sticked {
@@ -56,7 +55,7 @@ nav.navbar.bootsnav {
     height: 19%;
 
     .navbar-collapse {
-      background-color: black;
+      background-color: #170c65;
       height: 200px;
       margin-top: -68px;
       z-index: -99;
