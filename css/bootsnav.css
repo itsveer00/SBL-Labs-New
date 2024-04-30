@@ -1,0 +1,66 @@
+/* Navbar
+=================================*/
+nav.navbar.bootsnav {
+  margin-bottom: 0;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  z-index: 9;
+  /* background-color: red; */
+}
+
+/* Navbar Sticky
+=================================*/
+.wrap-sticky nav.navbar.bootsnav {
+  position: absolute;
+  /* padding-right: 30px; */
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.wrap-sticky nav.navbar.bootsnav.sticked {
+  position: fixed;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+  opacity: 0.5;
+  height: 14%;
+}
+
+@media (max-width: 991px) {
+  nav.navbar.bootsnav {
+    margin-bottom: 0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: none;
+    z-index: 9;
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .wrap-sticky nav.navbar.bootsnav.sticked {
+    position: fixed;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    height: 19%;
+
+    .navbar-collapse {
+      background-color: black;
+      height: 200px;
+      margin-top: -68px;
+      z-index: -99;
+      
+    }
+  }
+}
